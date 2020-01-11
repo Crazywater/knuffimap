@@ -1,13 +1,16 @@
 name: knuffimap
 description: An abstraction over `package:firebase_database`.
 version: 0.0.1
+homepage: https://github.com/Crazywater/knuffimap
 repository: https://github.com/Crazywater/knuffimap
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
+  collection: ^1.14.12
   firebase_database: ^3.0.5
+  meta: ^1.1.8
   rxdart: ^0.23.1
 
   flutter:
