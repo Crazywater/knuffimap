@@ -35,7 +35,7 @@ class FirebaseReference implements Reference {
   @override
   Future<void> set(Map<String, dynamic> value) => _ref.set(value);
 
-  Event _toEvent(firebase.Event e) => Event(_toSnapshot(e.snapshot));
+  Event _toEvent(firebase.DatabaseEvent e) => Event(_toSnapshot(e.snapshot));
 
   Snapshot _toSnapshot(firebase.DataSnapshot s) => Snapshot(s.key, s.value);
 }
