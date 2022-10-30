@@ -1,3 +1,7 @@
+## [0.2.0] - October 10, 2022
+
+* Upgrade packages to newest versions.
+
 ## [0.1.0] - January 4, 2021
 
 * Upgrade packages to newest versions.
